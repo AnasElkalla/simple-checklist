@@ -30,6 +30,11 @@ form div {
   align-items: center;
   padding: 20px;
 }
+@media (max-width:500px){
+body{overflow-y:visible} 
+form{padding:20px}
+form div{width:150px}
+}
 form div:hover {
   transform: scale(1.2);
   box-shadow: 15px 15px 10px black;
