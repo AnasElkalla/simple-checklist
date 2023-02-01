@@ -32,8 +32,8 @@ form div {
 }
 @media (max-width:500px){
 body{overflow-y:visible} 
-form{padding:20px}
-form div{width:150px}
+form{padding:10px}
+form div{width:150px;min-height:100px}
 }
 form div:hover {
   transform: scale(1.2);
