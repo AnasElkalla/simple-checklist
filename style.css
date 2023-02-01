@@ -20,7 +20,7 @@ form div {
   background-color: rgb(109, 109, 199);
   color: white;
   padding: 10px;
-  width: 200px;
+  min-width: 200px;
   border-radius: 10px;
   transition: 0.6s;
   cursor: pointer;
@@ -33,7 +33,7 @@ form div {
 @media (max-width:500px){
 body{overflow-y:visible} 
 form{padding:10px}
-form div{width:150px;min-height:100px}
+form div{min-width:150px;min-height:100px}
 }
 form div:hover {
   transform: scale(1.2);
