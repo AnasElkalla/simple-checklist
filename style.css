@@ -37,7 +37,7 @@ form{padding:10px;
   justify-content:center;
   align-items:center
 }
-form div{width:150px;min-height:100px;max-height:150px}
+form div{width:150px;min-height:100px}
 }
 form div:hover {
   transform: scale(1.2);
